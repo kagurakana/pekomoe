@@ -1,0 +1,34 @@
+{
+  "name": "pekomoe",
+  "version": "1.0.0",
+  "description": "Pekora, best waifu ever!",
+  "private": "true",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kagurakana/pekomoe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kagurakana/pekomoe/issues"
+  },
+  "homepage": "https://github.com/kagurakana/pekomoe#readme"
+}
